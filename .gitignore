@@ -3,6 +3,7 @@
 *.xcodeproj
 *~
 .vscode/
+.idea/
 /CMakeScripts
 /Testing
 /_CPack_Packages
@@ -18,3 +19,7 @@ build/
 cmake_install.cmake
 fmt-*.cmake
 fmt.pc
+
+qodana
+.env
+*.sarif.json
